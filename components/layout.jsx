@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-export const siteTitle = "GitHub Actions MongoDB";
+export const siteTitle = "Next Auth Redirect";
 
 export default function Layout({ children }) {
   return (
@@ -9,7 +9,7 @@ export default function Layout({ children }) {
         <link rel="shortcut icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="demo of Github Actions with MongoDB"
+          content="demo of Next Auth Redirect"
         />
         <meta
           property="og:image"
@@ -17,8 +17,7 @@ export default function Layout({ children }) {
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta property="og:url" content="https://github-actions-mongodb.vercel.app/" />
-        <meta property="og:site_name" content="GitHub Actions MongoDB" />
+        <meta property="og:site_name" content="Next Auth Redirect" />
         <meta name="robots" content="index, follow"/>
         <meta property="og:type" content="Website" />
         <title>{siteTitle}</title>
