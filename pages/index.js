@@ -10,7 +10,7 @@ export default function Home( ) {
         <p><strong>Signin to view your dashboard!</strong></p>
         <p>Not signed in</p>
         <br />
-        <button className="thinbutton" onClick={() => signIn()}>Sign in</button>
+        <button onClick={() => signIn()}>Sign in</button>
       </Layout>
   );
 }
